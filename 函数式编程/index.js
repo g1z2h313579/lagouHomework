@@ -228,3 +228,40 @@ class P {                                       //时间不多，简单实现
         }
     }
 }
+
+
+// async function a() {
+//     let b = await '1';
+//     console.log(b);
+// }
+// a();
+// console.log('2')
+
+console.log('--------------------')
+
+// let aaa = {name : 'asd'};
+// let bbb = aaa;
+// // aaa = null;
+// aaa.name = 'qweqwe';
+// aaa = null;
+// console.log(bbb);
+// console.log(aaa)
+
+
+// function aaa (){
+//     let b = 'asd'
+//     return `${b},zxc`;
+// }
+// function aaa (){
+//         const b = 'asd'
+//         return `${b},zxc`;
+//     }
+    // function aaa (){
+    //         var b = 'asd'
+    //         return `${b},zxc`;
+    //     }
+        function aaa (){
+                b = 'asd'
+                return `${b},zxc`;
+            }
+            console.log("a()",aaa())
